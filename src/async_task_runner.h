@@ -16,6 +16,7 @@ class async_task_runner {
 
 private:
   range sort(range substr) noexcept;
+  std::string merge_pair(const std::pair<std::string, std::string>& pair) noexcept;
 
 public:
   async_task_runner(std::string&& file_content);
